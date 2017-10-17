@@ -1,12 +1,16 @@
 {
     "name": "administrateur/tptrois",
     "require": {
-        "phpunit/phpunit": "^5.6"
+        "phpunit/phpunit": "^4.8"
     },
     "authors": [
         {
             "name": "isabelle",
             "email": "rozeisabelle@hotmail.fr"
         }
-    ]
+    ],
+    "autoload":{
+        "psr-4":{"":"src/"}
+    }
+
 }
